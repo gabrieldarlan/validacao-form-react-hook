@@ -5,5 +5,6 @@ const Label=styled.label`
     flex-direction: column;
     font-size: 35px;
     align-items: center;
+    margin: 20px;
 `;
 export default Label;

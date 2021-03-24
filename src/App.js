@@ -1,14 +1,11 @@
 import React from 'react';
-import Field from './components/Field';
-import Form from './components/Form';
+import FormNew from './components/FormNew';
 import Main from './Main';
 
 function App() {
   return (
     <Main>
-      <Form>
-        <Field.Text label="Email" name="email" type="email" />
-      </Form>
+      <FormNew />
     </Main>
   );
 }
